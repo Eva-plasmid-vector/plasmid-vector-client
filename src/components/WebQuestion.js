@@ -10,7 +10,7 @@ const WebQuestion = () => {
     const [generalFeedback, setGeneralFeedback] = useState('');
 
     const submitFeedback = () =>{
-        Axios.post("http://www.plasmidvector.com/api/insert", 
+        Axios.post("https://plasmid-vector.herokuapp.com/api/insert", 
         {generalFeedback: generalFeedback}).then(()=>{
             alert("successful insert");
             console.log(generalFeedback)
