@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Zihan Jin",
+        "link": "/zihanjin",
+        "profileEnter": "evaCharacter.png",
+        "introduction": "intro-eva",
+        "memberID" : "vector-member-eva",
+        "email": "zihan@plasmidvector.com"
+    },
+    {
+        "name": "Xiaoyan Jiang",
+        "link": "/xiaoyanjiang",
+        "profileEnter": "carreyCharacter.png",
+        "introduction": "intro-carrey",
+        "memberID":"vector-member-carrey",
+        "email": "xiaoyan@plasmidvector.com"
+    }
+]

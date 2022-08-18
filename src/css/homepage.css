@@ -1,0 +1,244 @@
+.new-content, .navigation, .web-question{
+    margin-top: 50px;
+}
+.home-intro{
+    font-weight: bold;
+    color: #295E59;
+    text-shadow: 1px 1px 5px#ED7575;
+}
+
+.welcome-page{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+
+    background: linear-gradient(
+    90deg,
+    #95d7d160 0%,
+    #f6cbcb97 30%,
+    #f3cece94 70%
+  );
+    border-radius: 20px;
+
+    margin: 10px;
+    padding: 20px;
+
+    overflow: hidden;
+
+}
+.blush {
+  
+    position: absolute;
+   
+    height: 400px;
+    width: 400px;
+    filter: blur(20px);
+    border-radius: 50%;
+
+    margin-left: 20px;
+  }
+  
+  .blush.pink {
+    height: 300px;
+    bottom: 12px;
+    left: -1;
+    z-index: -1;
+    background: #ffc2c2;
+    opacity: 20%;
+  }
+  .blush.green {
+    z-index: -1;
+    top: 0px;
+    right: 0px;
+    background: #a0f9f1f7;
+    opacity: 50%;
+  }
+
+.welcome-page::-webkit-scrollbar{
+    display: none;
+}
+.home-description{
+    display: inline;
+    font-size: 14px;
+    text-align: right;
+
+    line-height: 30px;
+}
+#homepagelogo{
+    width: 419px;
+}
+#welcome-title-top{
+    text-align: center;
+}
+#welcome-title-middle, #welcome-title-bottom{
+   display: flex;
+   justify-content: center;
+}
+.welcome-content{
+    display: flex;
+}
+#tRNAImage{
+    width: 400px;
+}
+#welcome-content-bottom{
+    display: flex;
+    align-items: center;
+}
+
+/* -----------------------Newcontent------------------------- */
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    padding-left: 10px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+
+    height: 35px;
+    width: 35px;
+
+    margin-right: 10px;
+}
+
+.slide{
+    display: flex;
+    justify-content: space-around;
+
+    overflow: scroll;
+    padding: 5px;
+}
+.content-info{
+    padding-left: 5px;
+}
+.content-info-author{
+    color: #295E59;
+    font-size: 14px;
+}
+.new-content-pad{
+
+    border-radius: 20px;
+    box-shadow: 0px 3px 5px #d1d1d1;
+    /* background-color: #EAF8F7; */
+    background: linear-gradient(
+        90deg,
+        #95d7d160 0%,
+        #f6cbcb97 30%,
+        #f3cece94 70%
+      );
+    padding: 10px;
+    width: 250px;
+}
+.new-content-pad:hover{
+    transition-duration: 300ms;
+    background-color: #cee8e6;
+}
+.new-content-image{
+    height: 180px;
+}
+.new-content-image-container{
+    display: flex;
+    justify-content: center;
+}
+
+/* -----------------------Navigation------------------------- */
+.navi-display{
+    display: flex;
+}
+.navi-display-left{
+    flex-grow: 1;
+    background: #FDECEC;
+  
+    border-radius: 50px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+}
+.navi-row{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 10px;
+}
+.navi-category{
+    background-color: #FFF9F9;
+    box-shadow: 0px 3px 5px #d1d1d1;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+}
+.navi-category:hover{
+    background-color: #ecd9d9;
+}
+#navi-category-top, #navi-category-bottom{
+    display: flex;
+    justify-content: center;
+}
+#navi-category-top{
+    padding-top: 30px;
+}
+.naviimage{
+    width: 45px;
+    height: 40px;
+}
+.navi-display-right{
+    margin: 10px;
+}
+select#sortby{
+    color: #295E59;
+    border: 1px solid #d1d1d1;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+/* -----------------------Web-question------------------------- */
+.web-question-display{
+    border-radius: 20px;
+    background-color: #F8E2E2;
+
+    padding: 20px;
+}
+textarea#general-question-textarea{
+    display: block;
+
+    width: 90%;
+
+    box-shadow: inset 2px 2px 5px #d1d1d1;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+
+    padding: 10px;
+    margin: 5px;
+}
+textarea#general-question-textarea:hover{
+    transition-duration: 300ms;
+    padding: 15px;
+}
+input#general-question-submit{
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    background-color: #4DAFA6;
+    box-shadow: 2px 2px 5px #a9a9a9;
+
+
+   font-size: 14px;
+   color: #FFF9F9;
+
+   margin: 5px 5px 5px 20px;
+   padding: 10px;
+}
+input#general-question-submit:hover{
+    transition-duration: 300ms;
+    background-color: #288b81;
+}
+.web-content-display-bottom{
+    display: flex;
+   justify-content: flex-end;
+}

@@ -1,0 +1,106 @@
+.vector-team-title{
+    padding: 20px;
+}
+.vector-team-quote{
+    line-height: 30px;
+    text-transform: none;
+
+    padding: 10px;
+}
+.vector-team-row{
+    display: flex;
+
+    padding: 20px;
+}
+.vector-team-introduction{
+    line-height: 30px;
+}
+.row-left{
+    padding: 10px;
+}
+.who-right{
+    display: flex;
+}
+.vector-member{
+    background: linear-gradient(
+        30deg,
+        #ffdede97 30%,
+        #ffdada94 50%,
+        #83c9c38e 80%
+      );
+    box-shadow: 1px 1px 5px #ababab;
+    border-radius: 20px;
+
+    padding: 20px;
+}
+.vector-member:hover{
+    margin: 30px;
+    transition-duration: 300ms;
+}
+.vector-member-image{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    
+}
+#vector-member-carrey{
+    background-image: url(../vectorImage/illustrations/carreyCharacter.png);
+}
+#vector-member-eva{
+    background-image: url(../vectorImage/illustrations/evaCharacter.png);
+}
+.vector-member-intro-display{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+#intro-eva{
+    background-image:url(../vectorImage/illustrations/evaIntro.png);
+}
+#intro-carrey{
+    background-image: url(../vectorImage/illustrations/carreyIntro.png);
+}
+
+.when-where-right{
+    display: flex;
+    flex-direction: column;
+}
+.when-image{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-image: url(../vectorImage/illustrations/flow.png);
+}
+.where-image{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-image: url(../vectorImage/illustrations/hills.png);
+}
+.why-right{
+    display: flex;
+    flex-direction: column;
+}
+.why-image{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-image: url(../vectorImage/illustrations/flow.png);
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+    .vector-team-title-text{
+        animation: team-title-move infinite 2s linear;
+    }
+}
+@keyframes team-title-move {
+    25%{
+        transform: translate(-20px);
+    }
+    50%{
+        transform: translate(0px);
+    }
+    75%{
+        transform: translate(20px);
+    }
+} */

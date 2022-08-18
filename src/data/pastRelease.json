@@ -1,0 +1,69 @@
+[
+    {
+        "title" : "Dissasociative Identity Disorder (DID)",
+        "link": "/dissociativeidentitydisorder",
+        "type": "Article",
+        "id": 1,
+        "coverImage": "DID/sadgirl.png",
+        "author": "Vector Team",
+        "description": "What is DID? How is it unique? What patients experience when they suffer from DID? Is it dangerous? ",
+        "lastEdit": "March 31th, 2022", 
+        "componentName": "DID"
+    },
+    {
+        "title": "Anorexia Nervosa",
+        "link": "/anorexianervosa",
+        "type": "Article",
+        "id": 2,
+        "coverImage": "eating_disorder/starving_girl.png",
+        "author": "Vector Team",
+        "description": "We heard it all the time. Only models would have it? Is it only stomachache? What makes it a mental disorder? ",
+        "lastEdit": "June 12, 2022", 
+        "componentName": "AnorexiaNervosa"
+    },
+    {
+        "title": "Major Depressive Disorder",
+        "link": "/majordepressivedisorder",
+        "type": "Graphic",
+        "id": 3,
+        "coverImage": "major_depression/depress_woman.png",
+        "author": "Vector Team",
+        "description": "Most stigmatized mental disorder. Sadness? Blue period of life? What differentiate between mental disorder and normal depressive phases in life? ",
+        "lastEdit": "July 18, 2022",
+        "componentName": "MajorDepressive"
+    },
+    {
+        "title": "Bipolar Disorder and Bipolar Spectrum",
+        "link": "/bipolardisorder",
+        "type": "Creative Writing",
+        "id": 4,
+        "coverImage": "bipolar/bipolar_spectrum.png",
+        "author": "Vector Team",
+        "description": "What does 'bipolar' mean? What are features of people with bipolar? Why are certain people more susceptible to the disease comparing with others? Do you know how many famous people are affected by the disease? What is a bipolar spectrum? ",
+        "lastEdit": "May 29th, 2022",
+        "componentName": "BipolarDisorder"
+    },
+    {
+        "title": "Hyperthyroidism",
+        "link": "/hyperthyroidism",
+        "type": "Infographic",
+        "id": 5,
+        "coverImage": "hyperthyroidism/thyroid_gland.png",
+        "author": "Zihan Jin",
+        "description": "Where is your thyroid gland? What are the symptoms of people with hyperthyroidism? Learn more about the disease and pathogenesis of it. ",
+        "lastEdit": "June 25th, 2022",
+        "componentName": "Hyperthyroidism"
+    },
+    {
+        "title": "Migraine with Aura",
+        "link": "/migraineaura",
+        "type": "Infographic",
+        "id": 6,
+        "coverImage": "migraine_with_aura/migraine-jump.png",
+        "author": "Vector Team",
+        "description": "Headache? With snowflakes sparkles blocking your vision? Panicking about becoming blind? It's alright! You're not alone. Come and learn about Migraine with Aura!",
+        "lastEdit": "August 5th, 2022",
+        "componentName": "MigraineAura"
+    }
+   
+]
