@@ -10,7 +10,7 @@
 .welcome-page{
     display: flex;
     flex-direction: column;
-    overflow: auto;
+    /* overflow: auto; */
 
     background: linear-gradient(
     90deg,
