@@ -2,7 +2,6 @@ import React from 'react'
 
 const HeadLogo = ({logoContainerID, logoID}) => {
     const vectorLogo = require('../vectorImage/logos/vectorLogo.png'); 
-
   return (
 
     <a href="/vectorteam" >

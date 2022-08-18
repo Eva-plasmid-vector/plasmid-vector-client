@@ -1,7 +1,6 @@
-import React  from 'react'
+import React, {useState} from 'react'
 
 import HeadLogo from './HeadLogo';
-import tRNAImage from '../vectorImage/illustrations/tRNAImage.png'
 import RotatePlasmid from './RotatePlasmid';
 import {motion, transform} from 'framer-motion'
 
@@ -23,8 +22,17 @@ const HomeWelcome = () => {
         greeting = 'Dear You';
     }
 
+    const parWidth = window.innerWidth;
+    // const [welcomeContentClass, setWelcomeContentClass] = useState('');
 
-
+    // const checkRatio = ()=>{
+    //     if (parWidth <= 700){
+    //         setWelcomeContentClass('welcome-content-vert')
+    //     }else{
+    //         setWelcomeContentClass('welcome-content')
+    //     }
+    // };
+    // checkRatio();
 
   return (
     
@@ -45,7 +53,9 @@ const HomeWelcome = () => {
 
                    
                 
-                    <div className="welcome-content">
+                    <div className={
+                        parWidth <= 700? 'welcome-content-vert' : 'welcome-content'
+                    }>
                     <div className="green blush" />
                        <div id="welcome-content-top">
                             <RotatePlasmid/>

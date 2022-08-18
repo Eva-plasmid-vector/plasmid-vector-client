@@ -2,7 +2,7 @@ import React from 'react'
 import {AnimatePresence, motion} from 'framer-motion'
 import NewsDetail from './NewsDetail'
 
-const OpenedNews = ({popNews, setPopNews, siteNews}) => {
+const OpenedNews = ({popNews, setPopNews, siteNews, parRatio}) => {
   return (
       
        <AnimatePresence>
@@ -16,7 +16,7 @@ const OpenedNews = ({popNews, setPopNews, siteNews}) => {
 
         className='opened-news-bg'>
 
-           <NewsDetail setPopNews = {setPopNews} popNews = {popNews} siteNews={siteNews}/>
+           <NewsDetail setPopNews = {setPopNews} popNews = {popNews} siteNews={siteNews} parRatio = {parRatio}/>
 
         </motion.div>
         )}

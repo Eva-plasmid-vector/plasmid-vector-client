@@ -5,7 +5,7 @@ import Billy24 from '../webImage/DID/24billy.jpg'
 import Sadgirl from '../webImage/DID/sadgirl.png'
 import Clarification from '../webImage/DID/clarification.png'
 
-const DID = ({pastRelease}) => {
+const DID = ({pastRelease, parRatio}) => {
   return (
     <div>
         <ContentTitleSnippet pastRelease={pastRelease} />
@@ -62,13 +62,13 @@ const DID = ({pastRelease}) => {
         <blockquote className="content-quote">“Oh, what is AMNESIA OF TRAUMATIC EVENTS?”</blockquote>
         
         <article>
-          <div className='content-row'>
+          <div className={ parRatio <= 0.8? 'content-row-vert' : 'content-row'}>
             <div className='row-left'>
             Amnesia of traumatic events is a common symptom seen in patients with DID. Though not directly causing the disease, this symptom is often particularly associated with the discovery of DID: the body’s defense mechanism toward traumatic events. For some individuals, the traumatic part of their memory will be held by the second personality. Recalling those memories often causes distress to the patient. Thus, as a way of self-protection, the patient’s body developed a second personality to seal those memories away. A notable collection of such memories is early-life trauma, including parental abuse, childhood or/and adulthood maltreatment, and unforgettable painful experiences. Nevertheless, the traumatic event differs between individuals based on their life experiences and genetic determinants (the susceptibility toward such trauma also varies based on genetic influences). Therefore, general examples are often not applicable for specific diagnosis. 
             </div>
             <div className='row-right'>
-              <figure className="content-in-text-figure">
-              <img src={Sadgirl} alt="sad_girl" className='content-in-text-image-small'/>
+              <figure className="content-in-text-figure-small">
+              <img src={Sadgirl} alt="sad_girl" className='content-in-text-image'/>
               </figure>
             </div>
           </div>
@@ -84,7 +84,7 @@ const DID = ({pastRelease}) => {
               <hr className="greenline"/>
 
                 <div className='content-adnexed-box'>
-                <div className='content-row'>
+                <div className={ parRatio <= 0.8? 'content-row-vert' : 'content-row'}>
                 <div className='row-left'> 
                   <article className="content-adnexed-text">
                       DID is highly recognizable among other kinds of psychological disorders. Despite that, it’s extremely rare with an incidence rate around 1.5% in the U.S. population (American Psychiatric Association). It is usually not easy to be diagnosed by psychiatrists nor faked by patients. Moreover, due to the rareness and risks of the disease, patients diagnosed with DID are often obliged to report for such condition, either to his or her community or any adminitrations. As a result, afraid of possible negative connotations, many parents, relatives, or patients themselves are reluctant to admit or attribute the symptoms to clinical psychosis, which somehow contributed to the low incidence rate. 
@@ -92,7 +92,7 @@ const DID = ({pastRelease}) => {
                 </div> 
                 <div className='row-right'>
                 <figure>
-                <img src={Clarification} alt="clarification" className='content-in-text-figure'/>
+                <img src={Clarification} alt="clarification" className='content-in-text-figure-small'/>
                 </figure>
                 </div>
                 </div>

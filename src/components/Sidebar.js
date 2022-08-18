@@ -8,7 +8,7 @@ import NaviButton from './NaviButton'
 import OpenedNews from './OpenedNews'
 
 
-const Sidebar = ({ pastRelease, showSidebar, siteNews}) => {
+const Sidebar = ({ pastRelease, showSidebar, siteNews, parRatio}) => {
 
     const [popNews, setPopNews] = useState(false)
 
@@ -41,6 +41,7 @@ const Sidebar = ({ pastRelease, showSidebar, siteNews}) => {
                         siteNews={siteNews}
                         setPopNews = {setPopNews}
                         popNews = {popNews}
+                    
                         />
                     </div>
     
@@ -49,7 +50,7 @@ const Sidebar = ({ pastRelease, showSidebar, siteNews}) => {
                         <PastRelease pastRelease={pastRelease} />
                     </div>
 
-                    <OpenedNews popNews={popNews} setPopNews = {setPopNews} siteNews={siteNews} />
+                    <OpenedNews popNews={popNews} setPopNews = {setPopNews} siteNews={siteNews} parRatio = {parRatio}/>
             </motion.div>
         )}
 </AnimatePresence>

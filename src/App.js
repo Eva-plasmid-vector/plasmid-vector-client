@@ -17,23 +17,40 @@ import vectorAuthorInfo from './data/vectorAuthorInfo.json';
 import siteNews from './data/siteNews.json';
 
 function App() {
+  const parHeight = window.innerHeight;
+  const parWidth = window.innerWidth;
 
-  const [showSidebar, setShowSidebar] = useState(true);
+  const parRatio = parWidth/parHeight;
+  // console.log(parRatio)
+
+  const [showSidebar, setShowSidebar] = useState( 
+
+    parRatio <= 0.8? false : true
+    // true
+  );
+  const phoneMessage = parRatio <= 0.8? 'Click to Open Sidebar!' : '';
+
   const [currentCat, setCurrentCat] = useState('');
+
+
+  // console.log(parHeight)
+  // console.log(parWidth)
 
   return(
     <>
-     <Header placeholder={'Enter Key Words...'} pastRelease={pastRelease}/>
+     <Header placeholder={'Enter Key Words...'} pastRelease={pastRelease} parWidth = {parWidth} />
         <div className='main-container'>
 
          
           <Sidebar
           
-           pastRelease={pastRelease} setCurrentCat={setCurrentCat} showSidebar={showSidebar} siteNews={siteNews}/>
+           pastRelease={pastRelease} setCurrentCat={setCurrentCat} showSidebar={showSidebar} siteNews={siteNews}
+           parRatio = {parRatio}
+           />
   
 
            <SidebarToggleButton 
-
+           
             onSidebar = {()=>setShowSidebar(!showSidebar)}
             showSidebar = {showSidebar}
             />
@@ -42,7 +59,9 @@ function App() {
     <div className='main-view'>
       <Router>
 
-        <AnimatedLocation pastRelease={pastRelease} setCurrentCat={setCurrentCat} currentCat={currentCat} vectorAuthorInfo={vectorAuthorInfo}/>
+        <AnimatedLocation pastRelease={pastRelease} setCurrentCat={setCurrentCat} currentCat={currentCat} vectorAuthorInfo={vectorAuthorInfo} 
+        parRatio = {parRatio} phoneMessage = {phoneMessage}
+        />
           
       </Router>
      

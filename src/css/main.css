@@ -2,7 +2,8 @@
 /* -----------------------Header------------------------- */
 .plasmid-container{
     size: cover;
-    height: 300px;
+    /* height: 300px; */
+    height: 20vw;
   }
   @media (prefers-reduced-motion: no-preference) {
     .plasmid-container{
@@ -44,7 +45,13 @@ header{
     margin-left: 40px;
 }
 #headlogoimage{
-    width: 120px;
+    width: 5vw;
+}
+#headlogoimage-phone{
+    width: 10vw;
+}
+#headlogoimage-tiny{
+    width: 25vw;
 }
 .source{
     display: flex;
@@ -178,7 +185,9 @@ input#search-submit{
 /* -----------------------Sidebar------------------------- */
 
 div.sidebar{
-    
+   
+    /* overflow: scroll; */
+
     display: flex;
     flex-direction: column;
 
@@ -231,6 +240,7 @@ a#return-top{
     margin-top: 0px;
 }
 .sidebar-inside.button{
+
    align-items: center;
    justify-content: center;
 
@@ -305,12 +315,19 @@ a#return-top{
         border-radius: 20px;
 
         padding: 10px;
-        width: 500px;
+        width: 30vw;
 }
 .news-detail-head{
     display: flex;
     align-items: center;
     gap: 100px;
+}
+.news-detail-head-vert{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    font-size: 12px;
+    gap: 20px;
 }
 /* -----------------------main-view------------------------- */
 
@@ -322,7 +339,7 @@ a#return-top{
 
     width: calc(100vw - 200px);
 
-    
+    padding: 20px;
 }
 /* -----------------------main-content------------------------- */
 .main-content{
@@ -332,9 +349,24 @@ a#return-top{
     margin: 10px;
     padding: 10px;
 }
+.phone-message{
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+    background: linear-gradient(
+        90deg,
+        #9ee3dd 0%,
+        #ffdada 30%,
+        #ffe0e0 70%
+      );
+      color: #295E59;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
 .operations{
     display:flex;
-
     padding-left: 10px;
 }
 button.sidebar-actions{
@@ -354,6 +386,7 @@ button.sidebar-actions{
     padding: 5px;
 
     background-size: cover;
+    position: fixed;
 }
 button.sidebar-actions:hover{
     transition-duration: 300ms;
@@ -398,5 +431,5 @@ blockquote{
 
 #linecircleBottom{
     margin: 10px;
-    height: 150px;
+    width: 20vw;
 }

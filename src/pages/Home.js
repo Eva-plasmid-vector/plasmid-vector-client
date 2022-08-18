@@ -13,7 +13,7 @@ import NewContent from '../components/NewContent';
 import WebQuestion from '../components/WebQuestion';
 
 
-const Home = ( {pastRelease} ) => {
+const Home = ( {pastRelease, parRatio, phoneMessage} ) => {
 
   return (
     <motion.div 
@@ -29,7 +29,22 @@ const Home = ( {pastRelease} ) => {
     transition={{duration: 1}}
     className='main-content'
     >
-              <HomeWelcome />
+      {phoneMessage && <motion.div
+     initial={{
+      opacity:0,
+      
+    }}
+     animate={{
+       opacity:1,
+       scale: [1, 1.5, 1, 1.5, 1, 1.5, 1, 1.5, 1, 1.5, 1]
+     }}
+     exit={{opacity: 0,
+      
+    }}
+     transition={{duration: 3}}
+       className='phone-message'>{phoneMessage}</motion.div>}
+      
+              <HomeWelcome parRatio= {parRatio} />
               <NewContent pastRelease={pastRelease}/>
               <WebQuestion/>
     </motion.div>

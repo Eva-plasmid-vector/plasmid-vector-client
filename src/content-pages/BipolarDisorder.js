@@ -11,7 +11,7 @@ import roaDiary from '../webImage/bipolar/roa_diary.png'
 import bipolarDrag from '../webImage/bipolar/bipolar_drag.png'
 import VRTour from '../components/VRTour'
 
-const BipolarDisorder = ({ pastRelease }) => {
+const BipolarDisorder = ({ pastRelease, parRatio}) => {
 
   const [bipolarTransition, setBipolarTransition] = useState(true)
 
@@ -145,7 +145,7 @@ const BipolarDisorder = ({ pastRelease }) => {
 
                     <blockquote className="content-quote">“More Bipolar in Real Life”</blockquote>
                     <article>
-                      <div className='content-row'>
+                      <div className={ parRatio <= 0.8? 'content-row-vert' : 'content-row'}>
                         <div className='row-left'>
                         <figure className="content-in-text-figure">
                           <AnimatePresence>
@@ -192,17 +192,20 @@ const BipolarDisorder = ({ pastRelease }) => {
                         <hr className="greenline"/>
 
                         <div className='content-adnexed-box'>
-                        
+                      <div className={ parRatio <= 0.8? 'content-row-vert' : 'content-row'}>
+
                           <figure>
-                              <VRTour/>
+                              
                               <img src={bipolarDrag} alt="bipolar-drag" className='content-in-text-image' />
-                              <figcaption className="content-in-text-figurecaption">Illustration by: Zihan Jin</figcaption>    
+                              <figcaption className="content-in-text-figurecaption">Illustration by: Zihan Jin</figcaption> 
+                              <VRTour/>   
                           </figure>
                           <article className="content-adnexed-text">
                               As mentioned previously, Bipolar disorder can be inherited and passed down through genes. The disorder is more common in people who have first-degree relatives with the disorder. If one of the physiological parents has bipolar, then the chance of the kid having bipolar is 10%. If both parents have it, the chance would rise to 40%.
                               Furthermore, there are physical changes in people with Bipolar, such as an extreme shift in hormone level between each episode. Still, the detailed change remains a mystery.
                               Just to give you a quick review about how many famous and creative people have suffered from the disease (Lieberman, 190), here is a list: Francis Ford Coppola, Ray Davies, Patty Duke, Carrie Fisher, Mel Gibson, Ernest Hemingway, Abbie Hoffman, Patrick Kennedy, Ada Lovelace, Marilyn, Monroe, Sinéad O'Connor, Lou Reed, Frank Sinatra, Britney Spears, Ted Turner, Jean-Claude Van Damme, Virginia Woolf, and Catherine Zeta-Jones.                             
                           </article>
+                        </div>
                         </div>
                     </div>
 

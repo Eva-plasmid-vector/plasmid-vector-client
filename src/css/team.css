@@ -12,6 +12,7 @@
 
     padding: 20px;
 }
+
 .vector-team-introduction{
     line-height: 30px;
 }
@@ -50,7 +51,7 @@
     background-image: url(../vectorImage/illustrations/evaCharacter.png);
 }
 .vector-member-intro-display{
-    width: 100vw;
+    width: 80vw;
     height: 100vh;
     background-size: cover;
 }

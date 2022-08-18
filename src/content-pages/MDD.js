@@ -9,13 +9,14 @@ import Rope from '../webImage/major_depression/rope_moyai_musubi.png'
 import CallGirl from '../webImage/major_depression/smartphone_talk06_girl.png'
 import White from '../webImage/major_depression/figure_depressed.png'
 
-const MDD = ({pastRelease}) => {
+const MDD = ({pastRelease, parRatio}) => {
   return (
     <div>
         <ContentTitleSnippet pastRelease={pastRelease} />
         <div className='content-display'>
           <blockquote className="content-quote">“I don’t know what it means to be HAPPY, but I know I’m NOT”</blockquote>
-          <figure className='content-in-text-figure'>
+          <div className={ parRatio <= 0.8? 'content-row-vert' : 'content-row'}>
+          <figure>
             <img src={CrouchedGirl} alt="crouched_girl" className='content-in-text-image'/>
           </figure>
           <article>
@@ -44,10 +45,11 @@ const MDD = ({pastRelease}) => {
             It really hurts when my pain has no evidence. 
             </article>
           </article>
+          </div>
 
           <blockquote className="content-quote">“Unfortunately, Not Everyone Could UNDERSTAND”</blockquote>
           <article>
-            <div className='content-row'>
+            <div className={ parRatio <= 0.8? 'content-row-vert' : 'content-row'}>
               <div className='row-left'>
               Major depressive disorder is the most well-known psychological disorder in every current societies. When people talk about the problems associated with “depression”, which is an oversimplified but useful name, they usually refer to this disorder. Under different cultural contexts, the social pressure faced by patients having major depressive disorder can be different. For societies with better understanding of psychological disorders, people would generally treat the disease seriously and understand the proper way to interact with the patients during daily tasks. As a result, the rate of patients seeking a treat is high. On the other hand, with poor popularization of knowledge for psychological disorders, patients under such social circumstance usually tend to hide their symptoms due to the fear of being accused and mocked by the others around them. Therefore, these patients tend to not seek for treatments while suffering from the distraught symptoms.                 
               </div>
@@ -75,7 +77,7 @@ const MDD = ({pastRelease}) => {
           <blockquote className="content-quote">“Self-Injury Is No Funny. Let’s Take A Closer Look!”</blockquote>
           
           <article>
-            <div className='content-row'>
+            <div className={ parRatio <= 0.8? 'content-row-vert' : 'content-row'}>
               <div className='row-left'>
               <figure className='content-in-text-figure-small'>
               <img src={Knife} alt="suicide_knife" className='content-in-text-image'/>
@@ -100,7 +102,7 @@ const MDD = ({pastRelease}) => {
           <blockquote className="content-quote">“Alert! Signs of Self-Destructing Behaviors!”</blockquote>
          
           <article>
-            <div className='content-row'>
+            <div className={ parRatio <= 0.8? 'content-row-vert' : 'content-row'}>
               <div className='row-left'>
                 Noticeably, self-destructing behaviors are symptoms of a number of mental disorders. There are certain detectable signs that one is committing self-injury. Some examples are: using accidents as excuses to explain frequent wounds on the body, avoiding socialization, being self-abased, and becoming less talkative. 
                 <br />
@@ -147,13 +149,14 @@ const MDD = ({pastRelease}) => {
           </article>
 
           <blockquote className="content-quote">“Hey! Maybe There Is A Proper Way of Suicide Prevention?”</blockquote>
+          <div className={ parRatio <= 0.8? 'content-row-vert' : 'content-row'}>
+
+          
           <article>
           First, we need to have a clearer view of suicide. Though it sounds like a joke at the moment, people planning to commit suicide would talk about their actual plans and thoughts. Therefore, it is better to take those thoughts seriously instead of challenging for it. It is always worth helping. If somebody says something about suicide or implies such ideas, it would help to talk about it rationally. Do not think it is a taboo. The worst thing is to do nothing, so don’t worry about doing the wrong thing. 
           <br />
           <br />
-          <figure className='content-in-text-figure'>
-            <img src={CallGirl} alt="calling_girl" className='content-in-text-image'/>
-          </figure>
+          
           <span className='content-in-text-span'>QPR (Question, Persuade, Refer)</span> is one of the most effective methods of preventing suicide. The goal is to prevent the current suicidal thought and bring the patient to doctors. Because you don’t necessarily need to be a clinical professional to use this method, it is well adopted and informative. 
           <br />
           <br />
@@ -169,46 +172,58 @@ const MDD = ({pastRelease}) => {
           Try to refer to as many professional help as possible. Introduce them to the suicide hotline, 1-800-273-TALK or 741741 in the U.S. and 400-161-9995 in mainland China. If they can’t remember these phone numbrs, any type of health emergency call would be better than not calling at all (In mainland China, 120 and 110 are trained to deal with suicidal problems). <span className='content-in-text-span'>If the person is currently thinking about commiting suicide, don’t let them be alone by themselves. </span>Remember to text, call, or visit them continuously. Show your support. You can also ask them who is the best person to talk to and reach out to that person. Try your best during the whole process, but don’t push too hard. 
           </article>
 
-          <blockquote className="content-quote">“DOs and DON’Ts if you are NOT the patient but trying to help”</blockquote>
           <figure className='content-in-text-figure'>
-            <img src={Friends} alt="friends_help" className='content-in-text-image'/>
+            <img src={CallGirl} alt="calling_girl" className='content-in-text-image'/>
           </figure>
-          <article>
-          <span className='content-in-text-span'>DON’T</span> let the patients get emotonally attached to you. 
-          <br />
-          If you are a fragile and sensitive person, <span className='content-in-text-span'>DON’T</span> get yourself convinced by the patient’s negative thoughts. 
-          <br />
-          If you can handle it, <span className='content-in-text-span'>DO</span> become a attentive listener if the patient needs to confide. 
-          <br />
-          <br />
-          <span className='content-in-text-span'>DON’T</span> try to become the doctor if you have no idea how exactly things should be done.  
-          <br />
-          <span className='content-in-text-span'>DO</span> show you care and worry about the patient. Be supportive and serious. Let them feel meaningful. 
-          <br />
-          <br />
-          <span className='content-in-text-span'>DON’T</span> judge what the patient said. 
-          <br />
-          <span className='content-in-text-span'>DON’T</span> give instructions and protruding advices. 
-          <br />
-          <span className='content-in-text-span'>DO</span> ask the patient to receive proper treatment from doctors and professionals. 
-          <br />
-          <br />
-          <span className='content-in-text-span'>DON’T</span> feel guilty if the patient didn’t become better after your effort of helping. 
-          <br />
-          <span className='content-in-text-span'>DON’T</span> explicitly express your disappointment to the patient. 
-          <br />
-          <span className='content-in-text-span'>DO</span> reach out for people that the patient feels safe with, such as family or other friends. 
-          <br />
-          <br />
-          </article>
+          </div>
+
+          <blockquote className="content-quote">“DOs and DON’Ts if you are NOT the patient but trying to help”</blockquote>
+          <div className={ parRatio <= 0.8? 'content-row-vert' : 'content-row'}>
+
+            <figure className='content-in-text-figure-small'>
+              <img src={Friends} alt="friends_help" className='content-in-text-image'/>
+            </figure>
+
+            <article>
+            <span className='content-in-text-span'>DON’T</span> let the patients get emotonally attached to you. 
+            <br />
+            If you are a fragile and sensitive person, <span className='content-in-text-span'>DON’T</span> get yourself convinced by the patient’s negative thoughts. 
+            <br />
+            If you can handle it, <span className='content-in-text-span'>DO</span> become a attentive listener if the patient needs to confide. 
+            <br />
+            <br />
+            <span className='content-in-text-span'>DON’T</span> try to become the doctor if you have no idea how exactly things should be done.  
+            <br />
+            <span className='content-in-text-span'>DO</span> show you care and worry about the patient. Be supportive and serious. Let them feel meaningful. 
+            <br />
+            <br />
+            <span className='content-in-text-span'>DON’T</span> judge what the patient said. 
+            <br />
+            <span className='content-in-text-span'>DON’T</span> give instructions and protruding advices. 
+            <br />
+            <span className='content-in-text-span'>DO</span> ask the patient to receive proper treatment from doctors and professionals. 
+            <br />
+            <br />
+            <span className='content-in-text-span'>DON’T</span> feel guilty if the patient didn’t become better after your effort of helping. 
+            <br />
+            <span className='content-in-text-span'>DON’T</span> explicitly express your disappointment to the patient. 
+            <br />
+            <span className='content-in-text-span'>DO</span> reach out for people that the patient feels safe with, such as family or other friends. 
+            <br />
+            <br />
+            </article>
+          </div>
 
           <div className="content-adnexed">
                         <h2>DON’T BE AFRAID</h2>
                         <hr className="greenline"/>
 
                         <div className='content-adnexed-box'>
-                          <figure>
-                              <img src={SadGirl} alt="sad_girl" />
+                          <div className={ parRatio <= 0.8? 'content-row-vert' : 'content-row'}>
+
+                         
+                          <figure className='content-in-text-figure'>
+                              <img src={SadGirl} alt="sad_girl" className='content-in-text-image'/>
                           </figure>
                           <article className="content-adnexed-text">
                               It’s worthwhile to repeat a thousand times: <span className='content-in-text-span'>GO AND FIND A DOCTOR!</span>If you can’t recover from a bone fracture on your own, you can’t recover from major depression on your own. In fact, the later might hurt worse. 
@@ -226,6 +241,7 @@ const MDD = ({pastRelease}) => {
                               <span className='content-in-text-span'>Magnetic Stimulation</span> <br />
                               This technique uses Repetitive Transcranial Magnetic Stimulation(RTMS) to stimulate the patient’s brain. The procedure is painless and performed during wakeness. Comparing with ECT, magnetic stimulation reduced risks of side effects, such as seizures and memory loss.            
                           </article>
+                          </div>
                         </div>
                     </div>
 

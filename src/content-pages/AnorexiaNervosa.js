@@ -17,7 +17,7 @@ import Diary8 from '../webImage/eating_disorder/elsa_diaries/elsa_diary_d8.PNG'
 
 
 
-const AnorexiaNervosa = ({pastRelease}) => {
+const AnorexiaNervosa = ({pastRelease, parRatio}) => {
 
   const diaryX = [
     {
@@ -234,7 +234,7 @@ const AnorexiaNervosa = ({pastRelease}) => {
        <div className="content-adnexed">
             <h2>WHAT CAN YOU DO TO HELP THEM?</h2>
             <hr className="greenline"/>
-            <div className='content-row'>
+            <div className={ parRatio <= 0.8? 'content-row-vert' : 'content-row'}>
               <div className='row-left'>
               <article className="content-adnexed-text">
               Despite its high mortality rate, Anorexia nervosa could be hard to recover from. The endurance of the disease vary from months to years, even to decades. Today, facing the spreading of comments such as “I’m on a diet”, “you should lose weight” or “you should gain weight”, patients of Anorexia Nervosa can almost be triggered anytime, anywhere during daily life. The first thing to do, as a family, friend, or person who wants to help, is to approach the patient through talks. Ask them about their feelings and situations in moderate ways. One red flag is that you should not ask them or force them to eat any food. It will only exacerbate the patient’s aversive reaction. Once possible, it is urgent to send the patient for clinical help and consult for therapeutic plan depending on the level of severity. 

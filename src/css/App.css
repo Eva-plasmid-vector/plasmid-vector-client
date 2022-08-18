@@ -111,4 +111,8 @@ border: none;
 
     padding: 20px;
 }
-
+.vector-team-row-vert{
+  display:flex;
+  flex-direction: column;
+  padding: 20px;
+}

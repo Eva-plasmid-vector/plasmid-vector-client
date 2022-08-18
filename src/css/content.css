@@ -17,9 +17,11 @@ article{
     line-height: 30px;
     padding: 20px;
 
+    overflow: auto;
+
 }
 article.narration{
-    margin-left: 200px;
+    margin-left: 20vw;
     font-style: italic;
 }
     article.narration:first-letter{
@@ -30,7 +32,6 @@ article.narration{
     float: right;
     margin-left: 10px;
     width: 300px;
-    /* width: var(--yesHeight); */
 }
 .content-in-text-figure-small{
     float: right;
@@ -40,6 +41,7 @@ article.narration{
 }
 .content-adnexed-box{
     display: flex;
+    overflow: auto;
     
 }
 .content-in-text-image{
@@ -68,6 +70,7 @@ article.narration{
     margin: 20px;
     padding: 20px;
     
+    overflow: auto;
 }
 .content-adnexed-text{
     padding: 20px;
@@ -98,7 +101,7 @@ article.narration{
 
     padding: 10px;
 }
-.get-content-question{
+/* .get-content-question{
     margin: 20px;
    
 
@@ -114,8 +117,8 @@ article.narration{
     box-shadow: inset 0px 2px 5px #d1d1d1;
 
     padding: 20px;
-}
-#content-question-textarea{
+} */
+/* #content-question-textarea{
     display: block;
 
     border: 1px solid #d1d1d1;
@@ -140,7 +143,7 @@ input#content-question-submit{
 }
 input#content-question-submit:hover{
     background-color: #288b81;
-}
+} */
 .vr-tour-ticket{
     background-color: rgb(247, 188, 182);
     text-align: center;
@@ -180,6 +183,7 @@ input#content-question-submit:hover{
     font-weight: bold;
     padding: 10px;
     margin: 5px;
+
 }
 .content-dropdown-Q:hover{
     box-shadow: 1px 1px 5px #d3a2a2;
@@ -196,12 +200,15 @@ input#content-question-submit:hover{
 
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 70%;
 
     padding: 10px;
     margin: 5px;
 
     overflow: auto;
+
+    flex-grow: 1;
+
 }
 .content-QA{
     display: flex;

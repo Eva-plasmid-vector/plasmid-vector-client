@@ -10,7 +10,7 @@ import Medication from '../webImage/migraine_with_aura/medication.png';
 import MigraineJump from '../webImage/migraine_with_aura/migraine-jump.png';
 import Triggers from '../webImage/migraine_with_aura/triggers.png'
 
-const MigraineAura = ({pastRelease}) => {
+const MigraineAura = ({pastRelease, parRatio}) => {
   return (
     <>
     <ContentTitleSnippet pastRelease={pastRelease}/>
@@ -34,7 +34,7 @@ const MigraineAura = ({pastRelease}) => {
         </article>
         <blockquote className='content-quote'>Ok. I Know You Want This. Let's Start with Some Common Symptoms!</blockquote>
         <article>
-            <div className='content-row'>
+            <div className={ parRatio <= 0.8? 'content-row-vert' : 'content-row'}>
             <div className='row-left'>
             <span className='content-in-text-span'>1.	It is starts with an aura</span> <br />
             -	Visual (most prevalent, over 90 percent) <br />
@@ -66,7 +66,7 @@ const MigraineAura = ({pastRelease}) => {
         </article>
         <blockquote className='content-quote'>What’s Happening Inside?</blockquote>
         <article>
-            <div className='content-row'>
+            <div className={ parRatio <= 0.8? 'content-row-vert' : 'content-row'}>
                 <div className='row-left'>
                 <figure className='content-in-text-figure'>
                     <motion.img 
@@ -99,7 +99,7 @@ const MigraineAura = ({pastRelease}) => {
         </article>
         <blockquote className='content-quote'>Who is more susceptible? </blockquote>
         <article>
-            <div className='content-row'>
+            <div className={ parRatio <= 0.8? 'content-row-vert' : 'content-row'}>
                 <div className='row-left'>
                     <span className='content-in-text-span'>Genetic basis? </span> <br />
                     Yes! There is a strong genetic risk of migraine with aura. However, the inheritance pattern is not clearly identified. It is postulated that the genes associated with migraine are the ones encoding neurotransmitters, the messenger molecules of our brain. 
@@ -136,7 +136,7 @@ const MigraineAura = ({pastRelease}) => {
         </article>
         <blockquote className='content-quote'>Common Treatments </blockquote>
         <article>
-            <div className='content-row'>
+            <div className={ parRatio <= 0.8? 'content-row-vert' : 'content-row'}>
                 <div className='row=left'>
                <figure className='content-in-text-figure'>
                <motion.img 
@@ -161,7 +161,7 @@ const MigraineAura = ({pastRelease}) => {
                 <hr className="greenline"/>
                     <div className='content-adnexed-box'>
                         <article>
-                        <div className='content-row'>
+                        <div className={ parRatio <= 0.8? 'content-row-vert' : 'content-row'}>
                             <div className='row-left'>
                             For migraine with aura, headache is not the only thing that the patients would suffer from. Because the onset of the headache is often sporadic and without identifiable signs, the migraine could occur anytime in daily life. You can’t ensure that it wouldn’t rush in during special events or intense occasions. The symptoms and progress of every headache is generally stressful and unbearable for daily functions. Merely expecting and panicking about the disorder is already an annoyance. Therefore, building up a relatively light-hearted lifestyle and mood can help with reducing the chance of triggering migraine. Sleep more and be careful with eating/drinking habits are also recommended. For people who travel a lot or simply can’t avoid a fast-paced life pattern, preparing prescribed medications habitually can be an alternative to deal with acute migraine attack. Meanwhile, if possible, never forget to take some rests! 
                             </div>

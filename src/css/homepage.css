@@ -10,7 +10,7 @@
 .welcome-page{
     display: flex;
     flex-direction: column;
-    /* overflow: auto; */
+    overflow: auto;
 
     background: linear-gradient(
     90deg,
@@ -65,8 +65,9 @@
     line-height: 30px;
 }
 #homepagelogo{
-    width: 419px;
+    width: 30vw;
 }
+
 #welcome-title-top{
     text-align: center;
 }
@@ -77,9 +78,11 @@
 .welcome-content{
     display: flex;
 }
-#tRNAImage{
-    width: 400px;
+.welcome-content-vert{
+    display: flex;
+    flex-direction: column;
 }
+
 #welcome-content-bottom{
     display: flex;
     align-items: center;
@@ -108,7 +111,14 @@
     display: flex;
     justify-content: space-around;
 
-    overflow: scroll;
+    overflow: auto;
+    padding: 5px;
+}
+.slide-phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     padding: 5px;
 }
 .content-info{

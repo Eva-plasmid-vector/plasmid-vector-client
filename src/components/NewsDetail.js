@@ -2,7 +2,7 @@ import React from 'react'
 import CloseIcon from '@mui/icons-material/Close';
 import {motion} from 'framer-motion'
 
-const NewsDetail = ({setPopNews, popNews, siteNews}) => {
+const NewsDetail = ({setPopNews, popNews, siteNews, parRatio}) => {
     const i = siteNews.length - 1;
 
   return (
@@ -13,7 +13,7 @@ const NewsDetail = ({setPopNews, popNews, siteNews}) => {
     }}
     
     className='news-detail'>
-        <div className='news-detail-head'>
+        <div className={ parRatio <= 0.8? 'news-detail-head-vert' : 'news-detail-head'}>
 
             <h1>{siteNews[i].title}</h1>
 
