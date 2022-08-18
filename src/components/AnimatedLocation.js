@@ -23,7 +23,7 @@ const AnimatedLocation = ({ pastRelease, setCurrentCat, currentCat, vectorAuthor
         <Routes location={location} key={location.pathname}>
             <Route path = '/' element = {<Home pastRelease={pastRelease} parRatio = {parRatio} phoneMessage = {phoneMessage}/>} />
             <Route path = '/navidisplay' element = {<NaviDisplay pastRelease={pastRelease} currentCat={currentCat} setCurrentCat={setCurrentCat} />} />
-            <Route path = '/vectorteam' element = {<VectorTeam pastRelease={pastRelease} vectorAuthorInfo={vectorAuthorInfo} />} />
+            <Route path = '/vectorteam' element = {<VectorTeam pastRelease={pastRelease} vectorAuthorInfo={vectorAuthorInfo} parRatio ={parRatio} />} />
  
 
             {/* WEB PAGE ROUTES         */}

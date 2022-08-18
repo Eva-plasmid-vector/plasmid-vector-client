@@ -5,7 +5,7 @@ import { motion} from 'framer-motion'
 
 import TeamProfile from '../components/TeamProfile'
 
-const VectorTeam = ({vectorAuthorInfo}) => {
+const VectorTeam = ({vectorAuthorInfo, parRatio }) => {
   return (
     <motion.div 
     initial={{opacity:0}}
@@ -31,7 +31,7 @@ const VectorTeam = ({vectorAuthorInfo}) => {
 
         </div>
 
-        <div className="vector-team-row">
+        <div className={ parRatio <= 0.8 ? "vector-team-row-vert" : "vector-team-row"}>
                <div className="row-left">
                    <h2>Vector who?</h2>
                    <article className="vector-team-introduction">
@@ -46,7 +46,7 @@ const VectorTeam = ({vectorAuthorInfo}) => {
                    </article>
                </div>
 
-               <div className="who-right">
+               <div className={ parRatio <= 0.8 ? "who-right-vert" : "who-right"}>
                   <TeamProfile vectorAuthorInfo={vectorAuthorInfo} />
                </div>
            </div>

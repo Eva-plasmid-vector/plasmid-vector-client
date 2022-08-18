@@ -12,6 +12,11 @@
 
     padding: 20px;
 }
+.vector-team-row-vert{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px;
+}
 
 .vector-team-introduction{
     line-height: 30px;
@@ -21,6 +26,10 @@
 }
 .who-right{
     display: flex;
+}
+.who-right-vert{
+    display: flex;
+    flex-direction: column;
 }
 .vector-member{
     background: linear-gradient(
