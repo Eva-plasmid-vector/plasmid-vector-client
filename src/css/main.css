@@ -51,7 +51,7 @@ header{
     width: 10vw;
 }
 #headlogoimage-tiny{
-    width: 25vw;
+    width: 30vw;
 }
 .source{
     display: flex;
@@ -363,7 +363,7 @@ a#return-top{
     font-style: italic;
     font-weight: bold;
     border-radius: 10px;
-    
+
 }
 .operations{
     display:flex;
