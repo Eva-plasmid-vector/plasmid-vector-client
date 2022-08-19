@@ -2,7 +2,9 @@ import React from 'react';
 import YouTube from 'react-youtube';
 import TheatersIcon from '@mui/icons-material/Theaters';
 
-const AdVideo = () => {
+const AdVideo = ({parRatio}) => {
+    
+  
   return (
     <div>
         <div className="title">
@@ -12,7 +14,7 @@ const AdVideo = () => {
     <h2>Watch Our Self Introduction!</h2>
     </div>
     <div className='video-container'>
-        <YouTube videoId="DkbSttH_LRk" className='video'/>
+        <YouTube videoId="DkbSttH_LRk"  className={ parRatio<= 0.8 ? 'video' : ''}/>
     </div>
 </div>
   )

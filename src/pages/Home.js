@@ -46,7 +46,7 @@ const Home = ( {pastRelease, parRatio, phoneMessage} ) => {
        className='phone-message'>{phoneMessage}</motion.div>}
               
               <HomeWelcome parRatio= {parRatio} />
-              <AdVideo/>
+              <AdVideo parRatio={parRatio}/>
               <NewContent pastRelease={pastRelease}/>
               <WebQuestion/>
     </motion.div>

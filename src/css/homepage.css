@@ -253,14 +253,17 @@ input#general-question-submit:hover{
    justify-content: flex-end;
 }
 .video{
-    width: 64vw;
+    width: 50vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 
 }
 
 .video-container{
     display: flex;
     justify-content:center;
-    /* align-items: center; */
+    align-items: center;
 
     padding: 10px;
     overflow: auto;
