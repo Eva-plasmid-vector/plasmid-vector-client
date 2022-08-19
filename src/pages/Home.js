@@ -8,9 +8,10 @@ import { motion} from 'framer-motion'
 // import Footer from '../components/Footer'
 
 
-import HomeWelcome from '../components/HomeWelcome'
+import HomeWelcome from '../components/HomeWelcome';
 import NewContent from '../components/NewContent';
 import WebQuestion from '../components/WebQuestion';
+import AdVideo from '../components/AdVideo';
 
 
 const Home = ( {pastRelease, parRatio, phoneMessage} ) => {
@@ -43,8 +44,9 @@ const Home = ( {pastRelease, parRatio, phoneMessage} ) => {
     }}
      transition={{duration: 3}}
        className='phone-message'>{phoneMessage}</motion.div>}
-      
+              
               <HomeWelcome parRatio= {parRatio} />
+              <AdVideo/>
               <NewContent pastRelease={pastRelease}/>
               <WebQuestion/>
     </motion.div>

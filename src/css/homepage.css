@@ -252,3 +252,16 @@ input#general-question-submit:hover{
     display: flex;
    justify-content: flex-end;
 }
+.video{
+    width: 64vw;
+
+}
+
+.video-container{
+    display: flex;
+    justify-content:center;
+    /* align-items: center; */
+
+    padding: 10px;
+    overflow: auto;
+}
