@@ -13,6 +13,7 @@ import AnorexiaNervosa from '../content-pages/AnorexiaNervosa';
 import Hyperthyroidism from '../content-pages/Hyperthyroidism';
 import MDD from '../content-pages/MDD';
 import MigraineAura from '../content-pages/MigraineAura';
+import PageNotFound from '../pages/PageNotFound';
 
 
 const AnimatedLocation = ({ pastRelease, setCurrentCat, currentCat, vectorAuthorInfo, parRatio, phoneMessage}) => {
@@ -24,7 +25,7 @@ const AnimatedLocation = ({ pastRelease, setCurrentCat, currentCat, vectorAuthor
             <Route path = '/' element = {<Home pastRelease={pastRelease} parRatio = {parRatio} phoneMessage = {phoneMessage}/>} />
             <Route path = '/navidisplay' element = {<NaviDisplay pastRelease={pastRelease} currentCat={currentCat} setCurrentCat={setCurrentCat} />} />
             <Route path = '/vectorteam' element = {<VectorTeam pastRelease={pastRelease} vectorAuthorInfo={vectorAuthorInfo} parRatio ={parRatio} />} />
- 
+            <Route path ='/*' element={<PageNotFound/>} />
 
             {/* WEB PAGE ROUTES         */}
             

@@ -2,10 +2,7 @@ import React from 'react';
 import '../css/homepage.css';
 import { motion} from 'framer-motion'
 
-// import Sidebar from '../components/Sidebar'
-// import Header from '../components/Header'
-// import SidebarToggleButton from "../components/SidebarToggleButton"
-// import Footer from '../components/Footer'
+
 
 
 import HomeWelcome from '../components/HomeWelcome';
