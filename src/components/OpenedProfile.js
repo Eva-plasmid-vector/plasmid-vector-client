@@ -13,8 +13,10 @@ const OpenedProfile = ({openProfile, IntroDisplay, vectorAuthorInfo}) => {
         transition={{duration: 0.8}}
 
         className='opened-news-bg'>
-            <div className='vector-member-intro-display' id={IntroDisplay}>
+          <div className='vector-member-intro-container'>
+          <div className='vector-member-intro-display' id={IntroDisplay}>
             </div>
+          </div>
         </motion.div>
    )
    }</AnimatePresence>

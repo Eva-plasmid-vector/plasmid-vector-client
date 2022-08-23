@@ -30,6 +30,8 @@
 .who-right-vert{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .vector-member{
     background: linear-gradient(
@@ -42,30 +44,43 @@
     border-radius: 20px;
 
     padding: 20px;
+    width: 200px;
 }
 .vector-member:hover{
     margin: 30px;
     transition-duration: 300ms;
 }
 .vector-member-image{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+   height: 200px;
     background-size: cover;
     
 }
 #vector-member-carrey{
+   
     background-image: url(../vectorImage/illustrations/carreyCharacter.png);
 }
 #vector-member-eva{
+   
     background-image: url(../vectorImage/illustrations/evaCharacter.png);
 }
+.vector-member-intro-container{
+    /* width: 100vw;
+    height: 100vh; */
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .vector-member-intro-display{
-    width: 80vw;
-    height: 100vh;
+    width: calc(80vh*1.5);
+    height: 80vh;
     background-size: cover;
 }
 #intro-eva{
     background-image:url(../vectorImage/illustrations/evaIntro.png);
+    
 }
 #intro-carrey{
     background-image: url(../vectorImage/illustrations/carreyIntro.png);

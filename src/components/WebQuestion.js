@@ -13,7 +13,7 @@ const WebQuestion = () => {
         Axios.post("https://plasmid-vector.herokuapp.com/api/insert", 
         {generalFeedback: generalFeedback}).then(()=>{
             alert("successful insert");
-            console.log(generalFeedback)
+            // console.log(generalFeedback)
         });
     };
 
