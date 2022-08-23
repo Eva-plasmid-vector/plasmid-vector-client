@@ -1,7 +1,7 @@
 import React from 'react'
 import {AnimatePresence, motion} from 'framer-motion'
 
-const OpenedProfile = ({openProfile, IntroDisplay, vectorAuthorInfo}) => {
+const OpenedProfile = ({openProfile, IntroDisplay, vectorAuthorInfo, parRatio }) => {
   return (
     <AnimatePresence>{
     openProfile && (
@@ -14,7 +14,8 @@ const OpenedProfile = ({openProfile, IntroDisplay, vectorAuthorInfo}) => {
 
         className='opened-news-bg'>
           <div className='vector-member-intro-container'>
-          <div className='vector-member-intro-display' id={IntroDisplay}>
+          <div className={parRatio <= 0.8? "vector-member-intro-display-vert" : "vector-member-intro-display" }
+          id={IntroDisplay}>
             </div>
           </div>
         </motion.div>

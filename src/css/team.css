@@ -78,6 +78,11 @@
     height: 80vh;
     background-size: cover;
 }
+.vector-member-intro-display-vert{
+    width: 90vw;
+    height: calc(90vw*4/6);
+    background-size: cover;
+}
 #intro-eva{
     background-image:url(../vectorImage/illustrations/evaIntro.png);
     

@@ -2,7 +2,7 @@
 import React, {useState} from 'react';
 import OpenedProfile from './OpenedProfile';
 
-const TeamProfile = ({vectorAuthorInfo}) => {
+const TeamProfile = ({vectorAuthorInfo, parRatio }) => {
   const [IntroDisplay, setIntroDisplay]  = useState("")
   const [openProfile, setOpenProfile] = useState(false)
   return (
@@ -24,7 +24,7 @@ const TeamProfile = ({vectorAuthorInfo}) => {
                 ></div>
                 <hr className='greenline'  key={Math.random(400)}/>
                 <h3 key={Math.random(500)}>{value.name}</h3>
-                <OpenedProfile IntroDisplay={IntroDisplay} openProfile={openProfile} vectorAuthorInfo={vectorAuthorInfo} />
+                <OpenedProfile IntroDisplay={IntroDisplay} openProfile={openProfile} vectorAuthorInfo={vectorAuthorInfo} parRatio={parRatio} />
             </div>      
   
     ))

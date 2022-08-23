@@ -47,7 +47,7 @@ const VectorTeam = ({vectorAuthorInfo, parRatio }) => {
                </div>
 
                <div className={ parRatio <= 0.8 ? "who-right-vert" : "who-right"}>
-                  <TeamProfile vectorAuthorInfo={vectorAuthorInfo} />
+                  <TeamProfile vectorAuthorInfo={vectorAuthorInfo} parRatio={parRatio} />
                </div>
            </div>
           
