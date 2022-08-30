@@ -1,4 +1,4 @@
-import React, { useState }from 'react'
+import React from 'react'
 // import  from 'react-router-dom';
 
 
@@ -26,7 +26,7 @@ const NaviList = ({ pastRelease, setCurrentCat, currentCat}) => {
     <ul className='navi-ul'>
         
           <li 
-            className={currentCat== ''? 'navi-li active': 'navi-li'}
+            className={currentCat=== ''? 'navi-li active': 'navi-li'}
             onClick={()=>{
               
               setCurrentCat('')
@@ -40,7 +40,7 @@ const NaviList = ({ pastRelease, setCurrentCat, currentCat}) => {
           
             <li 
             key={categoryList.toString()}
-            className={categoryList ==(currentCat)? 'navi-li active': 'navi-li'}
+            className={categoryList ===(currentCat)? 'navi-li active': 'navi-li'}
             onClick={()=>{             
               setCurrentCat(categoryList);
             }
