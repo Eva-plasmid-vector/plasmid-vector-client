@@ -20,7 +20,7 @@ const Scleroderma = ( {pastRelease, parRatio} ) => {
               <figcaption className="content-in-text-figurecaption">Illustration by: Zihan Jin</figcaption>
             </div>
 
-        <blockquote className='content-quote'>Hum… If It Sounds Strange to You, Don’t Worry! We’ll Start with the Basics: Scleroderma Forms</blockquote>
+        <blockquote className='content-quote'>Hum… If It Sounds Strange to You, Don’t Worry! We Can Start with the Basics: Scleroderma Forms</blockquote>
         <article>
         Scleroderma can be split into 2 forms: <span className='content-in-text-span'>localized scleroderma (LoS)</span> and <span className='content-in-text-span'>systemic scleroderma (systemic sclerosis (SSc))</span>. 
         </article>
