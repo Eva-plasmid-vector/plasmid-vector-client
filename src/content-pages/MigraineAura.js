@@ -180,7 +180,7 @@ const MigraineAura = ({pastRelease, parRatio}) => {
                     </div>         
         </div>
         <div className="workcited">
-            <p className="citation-title">Work Cited</p>
+            <p className="citation-title">References</p>
             <p className="citation">American Migraine Foundation. (n.d.). New Treatments for Migraine. American Migraine Foundation. Retrieved August 4, 2022, from https://americanmigrainefoundation.org/resource-library/new-migraine-treatments/</p>
             <p className="citation">International Headache Society. (2018). Headache Classification Committee of the International Headache Society (IHS) The International Classification of Headache Disorders, 3rd edition. Cephalalgia, 38(1), 1–211. https://doi.org/10.1177/0333102417738202</p>
             <p className="citation">Migraine.com. (2021). Migraine Statistics and Facts. Migraine.com. https://migraine.com/migraine-statistics</p>

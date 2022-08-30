@@ -251,7 +251,7 @@ const AnorexiaNervosa = ({pastRelease, parRatio}) => {
         </div>
 
        <div className="workcited">
-            <p className="citation-title">Work Cited</p>
+            <p className="citation-title">References</p>
             
                         <p className="citation">American Psychiatric Association. (2013). Diagnostic and Statistical Manual of Mental Disorders (5th ed.). American Psychiatric Association.</p>
                         <p className="citation">ANAD. (n.d.). Eating Disorder Statistics | General & Diversity Stats | ANAD. National Association of Anorexia Nervosa and Associated Disorders. Retrieved July 18, 2022, from https://anad.org/eating-disorders-statistics/?gclid=CjwKCAjw14uVBhBEEiwAaufYx8dmAq-zU8BajUjokEhpZHqWV4tOEsj-Tpt0Bo8yhk9G5_WEmMtUDxoCVU4QAvD_BwE</p>

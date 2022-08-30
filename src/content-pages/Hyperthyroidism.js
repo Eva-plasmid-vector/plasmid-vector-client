@@ -11,7 +11,7 @@ const Hyperthyroidism = ({pastRelease}) => {
             <img src={HTInfographic} alt="Infographic" className='content-in-text-image'/>
          </div>
         <div className="workcited">
-            <p className="citation-title">Work Cited</p>
+            <p className="citation-title">References</p>
             <p className="citation">Henry Ford Health System. “10 Misconceptions about Thyroid Disease.” Www.henryford.com, 1 Mar. 2021, www.henryford.com/blog/2021/03/10-misconceptions-about-thyroid-disease. Accessed 15 Jan. 2022.</p>
             <p className="citation">www.facebook.com/WebMD. “What Is Hyperthyroidism? What Are the Symptoms?” WebMD, WebMD, 27 Mar. 2017, www.webmd.com/a-to-z-guides/overactive-thyroid-hyperthyroidism. Accessed 15 Jan. 2022.</p>
             <p className="citation">Lakna. “Difference between T3 and T4.” Pediaa.com, 20 July 2018, pediaa.com/difference-between-t3-and-t4/. Accessed 15 Jan. 2022.</p>

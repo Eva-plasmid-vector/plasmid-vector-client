@@ -64,6 +64,27 @@
         "description": "Headache? With snowflakes sparkles blocking your vision? Panicking about becoming blind? It's alright! You're not alone. Come and learn about Migraine with Aura!",
         "lastEdit": "August 5th, 2022",
         "componentName": "MigraineAura"
+    },
+    {
+        "title": "Face Blindness (Prosopagnosia)",
+        "link": "/prosopagnosia",
+        "type": "Article",
+        "id": 7,
+        "coverImage": "prosopagnosia/password_face.png",
+        "author": "Vector Team",
+        "description": "Visual problem? Blind? A joke that people talk about? What exactly is face blindness? What kind of disorder is face blindness? Don't worry, let's talk about the myth from the eyes of a scientist!",
+        "lastEdit": "August 29th, 2022",
+        "componentName": "Prosopagnosia"
+    },
+    {
+        "title": "Scleroderma",
+        "link": "/scleroderma",
+        "type": "Article",
+        "id": 8,
+        "coverImage": "scleroderma/scleroderma_person.png",
+        "author": "Vector Team",
+        "description": "I got a cut from a sword. A sword I might be born with.",
+        "lastEdit": "August 30th, 2022",
+        "componentName": "Schleroderma"
     }
-   
 ]

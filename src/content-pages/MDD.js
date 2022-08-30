@@ -246,7 +246,7 @@ const MDD = ({pastRelease, parRatio}) => {
                     </div>
 
          <div className="workcited">
-            <p className="citation-title">Work Cited</p>
+            <p className="citation-title">References</p>
             <p className="citation">American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders. 5th ed., Arlington, VA, American Psychiatric Association, 2013.</p>
             <p className="citation">American Psychological Institution. “How to Help in an Emotional Crisis.” Apa.org, 2021, www.apa.org/topics/mental-health/help-emotional-crisis.</p>
             <p className="citation">Belmaker, R.H., and Galila Agam. “Major Depressive Disorder.” New England Journal of Medicine, vol. 358, no. 1, 3 Jan. 2008, pp. 55–68, 10.1056/nejmra073096. Accessed 8 Aug. 2019.</p>

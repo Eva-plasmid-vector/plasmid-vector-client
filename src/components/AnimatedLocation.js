@@ -14,6 +14,8 @@ import Hyperthyroidism from '../content-pages/Hyperthyroidism';
 import MDD from '../content-pages/MDD';
 import MigraineAura from '../content-pages/MigraineAura';
 import PageNotFound from '../pages/PageNotFound';
+import Prosopagnosia from '../content-pages/Prosopagnosia';
+import Scleroderma from '../content-pages/Scleroderma';
 
 
 const AnimatedLocation = ({ pastRelease, setCurrentCat, currentCat, vectorAuthorInfo, parRatio, phoneMessage}) => {
@@ -35,6 +37,9 @@ const AnimatedLocation = ({ pastRelease, setCurrentCat, currentCat, vectorAuthor
             <Route path='/hyperthyroidism' element={<Hyperthyroidism pastRelease={pastRelease} parRatio = {parRatio} />} />
             <Route path='/majordepressivedisorder' element={<MDD pastRelease={pastRelease} parRatio = {parRatio} />}/>
             <Route path='/migraineaura' element={<MigraineAura pastRelease={pastRelease} parRatio = {parRatio} /> } />
+            <Route path='/prosopagnosia' element={<Prosopagnosia pastRelease={pastRelease} parRatio = {parRatio} /> } />
+            <Route path='/scleroderma' element={<Scleroderma pastRelease={pastRelease} parRatio = {parRatio} /> } />
+
         </Routes>
       </AnimatePresence>
        

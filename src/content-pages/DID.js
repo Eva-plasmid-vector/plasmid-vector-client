@@ -103,7 +103,7 @@ const DID = ({pastRelease, parRatio}) => {
                     </div>
 
                     <div className="workcited">
-                        <p className="citation-title">Work Cited</p>
+                        <p className="citation-title">References</p>
             
                         <p className="citation">American Psychiatric Association. (2013). Diagnostic and statistical manual of mental disorders (5th ed.). American Psychiatric Association.</p>
                         <p className="citation">Preston, K., Ruth, B., & Porter, S. (2021, September 22). Monsters Inside: The 24 Faces of Billy Milligan. IMDb. https://www.imdb.com/title/tt15287836/</p>
