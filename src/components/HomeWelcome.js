@@ -65,14 +65,14 @@ const HomeWelcome = () => {
                             <p className="home-description">
                             Today, there are numerous 
                             <span 
-                            className='home-intro green'>physical diseases and mental disorders</span>
+                            className='home-intro green'> physical diseases and mental disorders </span>
                              that are 
-                             <span className='home-intro green'>neglected/stigmatized/misunderstood</span>
+                             <span className='home-intro green'> neglected/stigmatized/misunderstood </span>
                               by the public. Here, we want to use 
-                              <span className='home-intro pink'>simple and intriguing examples, stories, and graphics</span>
+                              <span className='home-intro pink'> simple and intriguing examples, stories, and graphics </span>
                                to present them as thorough as possible. 
-                            <span className='home-intro pink'>Like passing information between individual’s genome</span>, our
-                             <span className='home-intro pink'>Plasmid Vector website</span> 
+                            <span className='home-intro pink'> Like passing information between individual’s genome </span>, our
+                             <span className='home-intro pink'> Plasmid Vector website </span> 
                              intends to become a medium that carries the knowledge of physical diseases and mental disorders, transfers that into accessible facts, and deciphers the language across different professions.  
                             </p>
                            
