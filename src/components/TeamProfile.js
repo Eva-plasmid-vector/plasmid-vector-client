@@ -13,8 +13,8 @@ const TeamProfile = ({vectorAuthorInfo, parRatio }) => {
             onClick={()=>{
               setIntroDisplay(value.introduction)
               setOpenProfile(!openProfile)
-              console.log(IntroDisplay)
-              console.log(openProfile)
+              // console.log(IntroDisplay)
+              // console.log(openProfile)
             }
             }
            
@@ -24,6 +24,9 @@ const TeamProfile = ({vectorAuthorInfo, parRatio }) => {
                 ></div>
                 <hr className='greenline'  key={Math.random(400)}/>
                 <h3 key={Math.random(500)}>{value.name}</h3>
+                <h5 key={Math.random(500)}><span className='content-in-text-span'>Major:</span> {value.major}</h5>
+                <h5 key={Math.random(500)}><span className='content-in-text-span'>Education:</span> {value.education}</h5>
+                <h5 key={Math.random(500)}><span className='content-in-text-span'>Alternative contact:</span> {value.alterEmail}</h5>
                 <OpenedProfile IntroDisplay={IntroDisplay} openProfile={openProfile} vectorAuthorInfo={vectorAuthorInfo} parRatio={parRatio} />
             </div>      
   

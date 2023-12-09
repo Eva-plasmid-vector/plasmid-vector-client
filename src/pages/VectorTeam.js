@@ -35,12 +35,14 @@ const VectorTeam = ({vectorAuthorInfo, parRatio }) => {
                <div className="row-left">
                    <h2>Vector who?</h2>
                    <article className="vector-team-introduction">
-                   <span className='content-in-text-span'>Location/Identity: </span>China; high school students
+                   <span className='content-in-text-span'>Location: </span>United States and Canada
+                   <br />
+                   <span className='content-in-text-span'>Education: </span>Enrolled undergraduate standing
                 <br />
-                   Our team is comprised of two biology students who are both equally passionate in psychology and neuroscience. After noticing some stigmas and misunderstandings associated with physical diseases/mental disorders, coupling with our personal background and experience, we decided to do something. That’s when we took our action: started to build the website and compose the presented content. 
+                   Our team is comprised of two undergraduate students who are both equally passionate in life science, psychology, and neuroscience. After noticing some stigmas and misunderstandings associated with physical diseases/mental disorders, coupling with our personal background and experience, we decided to do something. That’s when we took our action: started to build the website and compose the presented content. 
                 <br />
                 <br />
-                <span className='content-in-text-span'>Email Eva: </span><a href="mailto: zihan@plasmidvector.com">zihan@plasmidvector.com</a>
+                <span className='content-in-text-span'>Email Eva: </span><a href="mailto: zihan@plasmidvector.com">zihan@plasmidvector.com</a> or 
                 <br />
                 <span className='content-in-text-span'>Email Carrey: </span><a href="mailto: xiaoyan@plasmidvector.com">xiaoyan@plasmidvector.com</a>
                    </article>
@@ -66,7 +68,7 @@ const VectorTeam = ({vectorAuthorInfo, parRatio }) => {
             <h3>2.	Curiosity, passion</h3>
             Most straightforwardly, everything begins with a single but sonorous reason: curiosity. Coupling with today’s climbing prevalence of some of our included diseases, we can’t help but dive into research and seek for a better understanding of them. 
             <h3>3.	Verify our interest as temporary or persistent</h3>
-            Yes, as you can see, we are high school students who are currently struggling through a perplexing stage of finding out what we want to do and what we like to study. We have found our “embryonic” thoughts (health related, biology, natural science, neuroscience, psychology…) which bring us together to work on this project. Through researching the diseases on our own and translating that information into various media (seasoning it with graphics, color, stories), this transitioning process would inevitably give us an idea of to what extent we enjoy learning and grasping ideas in this field. If we enjoy this project, and we still feel this binding interest after all, this field might be a persistent rather than temporary interest that we can consolidate in the future. 
+            We are college students who are currently exploring what we want to do and what we like to study as our career focus. We have found our “embryonic” thoughts (health related, biology, natural science, neuroscience, psychology…) which bring us together to work on this project. Through researching the diseases on our own and translating that information into various media (seasoning it with graphics, color, stories), this transitioning process would inevitably give us an idea of to what extent we enjoy learning and grasping ideas in this field. If we enjoy this project, and we still feel this binding interest after all, this field might be a persistent rather than temporary interest that we can consolidate in the future. 
             </article>
           </div>
         </div>

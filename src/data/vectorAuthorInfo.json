@@ -5,7 +5,10 @@
         "profileEnter": "evaCharacter.png",
         "introduction": "intro-eva",
         "memberID" : "vector-member-eva",
-        "email": "zihan@plasmidvector.com"
+        "email": "zihan@plasmidvector.com",
+        "major": "Neurobiology",
+        "education": "University of California, Berkeley",
+        "alterEmail":"zihaniseva@gmail.com"
     },
     {
         "name": "Xiaoyan Jiang",
@@ -13,6 +16,9 @@
         "profileEnter": "carreyCharacter.png",
         "introduction": "intro-carrey",
         "memberID":"vector-member-carrey",
-        "email": "xiaoyan@plasmidvector.com"
+        "email": "xiaoyan@plasmidvector.com",
+        "major": "Life/natural Science",
+        "education":"University of Toronto",
+        "alterEmail":"carreyjiang11@gmail.com"
     }
 ]
