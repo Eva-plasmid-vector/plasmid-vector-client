@@ -86,5 +86,17 @@
         "description": "I got a cut from a sword. A sword I might be born with.",
         "lastEdit": "August 30th, 2022",
         "componentName": "Schleroderma"
+    },
+    {
+        "title": "Alzheimer's Disease",
+	    "link": "/alzheimers",
+	    "type": "Article",
+	    "id": 9,
+	    "coverImage": "alzheimers/alzheimers_cover.png",
+	    "author": "Vector Team",
+	    "description": "Who is this? Where am I? What is going on?",
+	    "lastEdit": "December 7th, 2023",
+	    "componentName": "Alzheimers"
+
     }
 ]

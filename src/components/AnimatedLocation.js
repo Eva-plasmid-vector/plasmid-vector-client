@@ -16,6 +16,7 @@ import MigraineAura from '../content-pages/MigraineAura';
 import PageNotFound from '../pages/PageNotFound';
 import Prosopagnosia from '../content-pages/Prosopagnosia';
 import Scleroderma from '../content-pages/Scleroderma';
+import Alzheimers from '../content-pages/Alzheimers';
 
 
 const AnimatedLocation = ({ pastRelease, setCurrentCat, currentCat, vectorAuthorInfo, parRatio, phoneMessage}) => {
@@ -39,6 +40,7 @@ const AnimatedLocation = ({ pastRelease, setCurrentCat, currentCat, vectorAuthor
             <Route path='/migraineaura' element={<MigraineAura pastRelease={pastRelease} parRatio = {parRatio} /> } />
             <Route path='/prosopagnosia' element={<Prosopagnosia pastRelease={pastRelease} parRatio = {parRatio} /> } />
             <Route path='/scleroderma' element={<Scleroderma pastRelease={pastRelease} parRatio = {parRatio} /> } />
+            <Route path='/alzheimers' element={<Alzheimers pastRelease={pastRelease} parRatio = {parRatio} /> } />
 
         </Routes>
       </AnimatePresence>

@@ -1,8 +1,8 @@
-import React, {useState} from 'react'
+import React from 'react'
 
 import HeadLogo from './HeadLogo';
 import RotatePlasmid from './RotatePlasmid';
-import {motion, transform} from 'framer-motion'
+// import {motion, transform} from 'framer-motion'
 
 const HomeWelcome = () => {
     var greeting;
