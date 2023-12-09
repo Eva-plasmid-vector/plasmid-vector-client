@@ -127,7 +127,7 @@ const Alzheimers = ({pastRelease, parRatio}) => {
               // dragConstraints={{top: 50, left: -50, right: 50, bottom: -50}}
               whileTap={{
                 x: -300,
-                y: 50,
+                y: 200,
                 scale: 3}}
               src={Symptoms} alt="alzheimers-symptoms" className="content-in-text-image"/>
               <figcaption className="content-in-text-figurecaption">Illustration by: Zihan Jin</figcaption>
@@ -158,7 +158,7 @@ const Alzheimers = ({pastRelease, parRatio}) => {
                   // drag
                   // dragConstraints={{top: 50, left: -50, right: 50, bottom: -50}}
                   whileTap={{
-                    x: -300,
+                    x: 300,
                     y: 50,
                     scale: 3}}
                   src={Plaque} alt="plaque-deposit" className="content-in-text-image"/>
@@ -183,7 +183,7 @@ const Alzheimers = ({pastRelease, parRatio}) => {
                   // drag
                   // dragConstraints={{top: 50, left: -50, right: 50, bottom: -50}}
                   whileTap={{
-                    x: -300,
+                    x: 300,
                     y: 50,
                     scale: 3}}
                   src={NeuronLoss} alt="neuron-loss" className="content-in-text-image"/>
