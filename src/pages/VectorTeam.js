@@ -42,7 +42,7 @@ const VectorTeam = ({vectorAuthorInfo, parRatio }) => {
                    Our team is comprised of two undergraduate students who are both equally passionate in life science, psychology, and neuroscience. After noticing some stigmas and misunderstandings associated with physical diseases/mental disorders, coupling with our personal background and experience, we decided to do something. That’s when we took our action: started to build the website and compose the presented content. 
                 <br />
                 <br />
-                <span className='content-in-text-span'>Email Eva: </span><a href="mailto: zihan@plasmidvector.com">zihan@plasmidvector.com</a> or 
+                <span className='content-in-text-span'>Email Eva: </span><a href="mailto: zihan@plasmidvector.com">zihan@plasmidvector.com</a>
                 <br />
                 <span className='content-in-text-span'>Email Carrey: </span><a href="mailto: xiaoyan@plasmidvector.com">xiaoyan@plasmidvector.com</a>
                    </article>
